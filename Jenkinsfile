@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning Repository...'
-git url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git', branch: 'main'
+git url: 'https://github.com/asnaga/Jenkins-Demo.git', branch: 'main'
             }
         }
  
